@@ -1,10 +1,11 @@
 @media (max-width: 1000px) {
     .logo{
-        height: 24vh;
+        height: 20vh;
+        margin-bottom: 35px;
     }
     
     .buttons{
-        height: 65vh;
+        height: calc(100vh - 40vh - 70px);
     }
     
     .button {
@@ -16,7 +17,8 @@
     }
 
     footer{
-        height: 11vh;
+        height: 20vh;
+        margin-top: 35px;
     }
   }
   
