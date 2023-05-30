@@ -1,0 +1,22 @@
+@media (max-width: 1000px) {
+    .logo{
+        height: 24vh;
+    }
+    
+    .buttons{
+        height: 65vh;
+    }
+    
+    .button {
+      width: 80vw;
+    }
+
+    .logo img{
+        width: 120px;
+    }
+
+    footer{
+        height: 11vh;
+    }
+  }
+  

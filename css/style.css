@@ -1,0 +1,89 @@
+.all{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, 
+    #000000 10%, 
+    #1B0030 50%, 
+    #000000 90%);
+}
+
+.logo{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img{
+    width: 120px;
+    border-radius: 100%;
+}
+
+.logo h1{
+    font-size: 22px;
+}
+
+.buttons{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    width: 40vw;
+    padding: 5px 35px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(100, 100, 100, 0.2);
+    border-radius: 50px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.61) 1px 5px 15px;
+}
+
+.button:hover{
+    transform: scale(0.97);
+}
+
+.icon-left{
+    width: 35px;
+    border-radius: 100%;
+}
+
+.button-center{
+    margin: 0 auto;
+    display: flex;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h4:hover{
+    text-decoration: underline;
+}
+
+.button-center img{
+    width: 20px;
+    margin-left: 5px;
+}
+
+
+footer{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer p{
+    font-size: 12px;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
