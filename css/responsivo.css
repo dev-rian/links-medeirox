@@ -20,3 +20,12 @@
     }
   }
   
+  @media (max-height: 630px) {
+    .all{
+        height: 120vh;
+    }
+
+    .buttons{
+        height: 85vh;
+    }
+  }
